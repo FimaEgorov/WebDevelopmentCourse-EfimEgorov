@@ -81,6 +81,7 @@ blockquote {
 .left2 {
     float: left;
     margin-left: 150px;
+    margin-bottom:20px;
 }
 
 .left2:hover {
@@ -101,7 +102,11 @@ blockquote {
 }
 
 .center {
-    margin-right: 150px;
+    margin-right:auto;
+    margin-left:auto;
+    width:200px;
+    margin-bottom:20px;
+
 }
 
 .center:hover {
@@ -118,15 +123,18 @@ blockquote {
   -o-animation: animationFrames linear 0.8s;
   -o-animation-iteration-count: 1;
   -o-transform-origin: 50% 50%;
+
   -ms-transform-origin: 50% 50%;
 }
 
 
 
 .right {
+    margin-top: -180px;
     float: right;
     margin-right: 150px;
     margin-bottom:20px;
+    width:200px;
 }
 .right:hover {
 
